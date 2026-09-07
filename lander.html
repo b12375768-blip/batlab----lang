@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BetLabel | Informative Wett- und Spielhilfen</title>
+    <meta name="description" content="BetLabel ist eine informative Webseite für Nutzer in Deutschland mit verständlichen Inhalten zu Wetten, Plattformen und verantwortungsvollem Spielverhalten." />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://www.betlabel.example/lander.html" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="container nav">
+        <a href="index.html" class="logo" aria-label="BetLabel Startseite">
+          <span class="logo-mark">BL</span>
+          <span>BetLabel</span>
+        </a>
+        <nav class="nav-links" aria-label="Hauptnavigation">
+          <a href="index.html">Start</a>
+          <a href="lander.html" class="active">Landing</a>
+          <a href="privacy.html">Datenschutz</a>
+          <a href="terms.html">AGB</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="container hero-grid">
+          <div>
+            <p class="eyebrow">Klare Orientierung im Wettbereich</p>
+            <h1>Mehr Wissen. Mehr Kontrolle. Mehr Klarheit.</h1>
+            <p class="lead">
+              BetLabel bietet Nutzern eine verständliche Übersicht zu Quoten, Wettbegriffen, Funktionen von Plattformen und der Bedeutung von verantwortungsvollem Spielverhalten.
+            </p>
+            <div class="cta-row">
+              <button class="btn btn-primary" data-open-client="true">Zum Client</button>
+              <a href="index.html" class="btn btn-secondary">Mehr erfahren</a>
+            </div>
+            <div class="info-note">
+              Informative Inhalte nur. Keine garantierten Gewinne oder unrealistischen Versprechen.
+            </div>
+          </div>
+
+          <div class="hero-visual">
+            <div class="visual-panel large-panel">
+              <div class="mini-card">
+                <span class="mini-label">Schnellüberblick</span>
+                <strong>Quoten, Märkte, Strategie</strong>
+                <p>Entwickelt, um Nutzer vor Entscheidungen besser zu informieren.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section alt-bg">
+        <div class="container">
+          <div class="section-title center">
+            <p class="eyebrow">Vertrauen statt Hype</p>
+            <h2>Nützliche Informationen ohne Übertreibung</h2>
+          </div>
+          <div class="cards three-up">
+            <article class="card">
+              <div class="card-body">
+                <span class="tag">Lernen</span>
+                <h3>Wettgrundlagen</h3>
+                <p>Verstehen Sie Quoten, Spielmärkte und häufige Begriffe mit verständlicher Erklärung.</p>
+              </div>
+            </article>
+            <article class="card">
+              <div class="card-body">
+                <span class="tag">Vergleichen</span>
+                <h3>Funktionsübersicht</h3>
+                <p>Erfahren Sie, welche Leistungen Plattformen bieten, etwa Live-Updates, Einblicke und Sicherheitsfunktionen.</p>
+              </div>
+            </article>
+            <article class="card">
+              <div class="card-body">
+                <span class="tag">Sicher bleiben</span>
+                <h3>Verantwortungsvoll spielen</h3>
+                <p>Behalten Sie die Kontrolle, setzen Sie Grenzen und nutzen Sie Wetten bewusst als Freizeitangebot.</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer-grid">
+        <div>
+          <a href="index.html" class="logo">
+            <span class="logo-mark">BL</span>
+            <span>BetLabel</span>
+          </a>
+          <p>Informative Wett- und Spielhilfen mit Fokus auf Klarheit und verantwortungsvolles Verhalten.</p>
+        </div>
+        <div>
+          <h3>Information</h3>
+          <ul>
+            <li><a href="index.html">Start</a></li>
+            <li><a href="privacy.html">Datenschutz</a></li>
+            <li><a href="terms.html">AGB</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3>Kontakt</h3>
+          <ul>
+            <li><a href="mailto:hello@betlabel.example">hello@betlabel.example</a></li>
+            <li><a href="tel:+15550190">+1 (555) 0190</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+
+    <div id="clientModal" class="modal" aria-hidden="true">
+      <div class="modal-backdrop" data-close-modal="true"></div>
+      <div class="modal-card" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+        <button class="modal-close" type="button" aria-label="Popup schließen" data-close-modal="true">×</button>
+        <p class="eyebrow">Offizieller Zugang</p>
+        <h3 id="modalTitle">Zum offiziellen Client?</h3>
+        <p>Sie verlassen die Informationsseiten von BetLabel und öffnen eine externe Client-Seite.</p>
+        <div class="modal-actions">
+          <button type="button" class="btn btn-secondary" data-close-modal="true">Hier bleiben</button>
+          <a href="https://xyz.com" class="btn btn-primary" id="continueClientBtn">Weiter</a>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
