@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const openButtons = document.querySelectorAll('[data-open-client="true"]');
   const closeButtons = document.querySelectorAll('[data-close-modal="true"]');
 
-  const clientUrl = 'https://xyz.com';
+  const clientUrl = 'https://dailysource.online/';
 
   function openModal() {
     if (!modal) return;
